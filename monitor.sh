@@ -15,7 +15,7 @@ MEMORY_THRESHOLD=$((6 * 1024 * 1024 * 1024 + 322122547))  # 6.3 GiB
 
 # Runtime threshold (3 hours 58 minutes = 14280 seconds)
 RUNTIME_THRESHOLD=14250
-RUNTIME_LIMIT=2800
+RUNTIME_LIMIT=3250
 # Ensure log file directory exists and is writable
 mkdir -p "$(dirname "$LOG_FILE")"
 touch "$LOG_FILE"
